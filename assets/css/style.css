@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+/* All-pages elements */
+body {
+    background-color: #0a0a0f;
+	background-image: url("../img/northgate_dark.png");
+    background-size: 100%;
+	margin:0px;
+	color:white;
+}
+h1{
+	float:left;
+	margin: 15px 0px;
+}
+h2{
+	margin-bottom:10px;
+}
+button{
+	width:100%;
+	height:40px;
+	border:none;
+	background-color: #19194d;
+	color:white;
+}
+button:hover{
+	background-color: #5353c6;
+}
+a{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+.info{
+	margin:0 auto;
+	padding:10px;
+	width:40%;
+	min-width:480px;
+}
+.topnav {
+  position:fixed;
+  width:100%;
+  height:75px;
+  overflow: hidden;
+  background: rgb(12,16,37);
+  background: linear-gradient(0deg, rgba(12,16,37,1) 0%, rgba(0,12,97,1) 100%);
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin:5px 20px;
+}
+.topnav a:visited {
+  color:white;
+  text-decoration: none;
+}
+.topnav a:hover {
+  text-decoration: underline;
+}
+.topnav img{
+	  width:50px;
+}
+/* Index elements */
+#mainnav{
+	color:white;
+	float:right;
+	list-style-type:none;
+}
+#mainnav li{
+	float:left;
+}
+#mainnav ul{
+	list-style-type:none;
+	float:left;
+	padding:0px;
+}
+#f1{
+	float:left;
+	margin-top:22px;
+}
+#f1 input[type=submit] {
+    display: none;
+}
+.t1 {
+    width:300px;
+	border: 2px solid cyan;
+    padding: 1px 5px;
+}
+#mapimg{
+	width: 100%;
+	background-image: url("../img/northgate_main.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#maplist div{
+	float:left;
+	width:15em;
+	border-top:double;
+	border-color:white;
+	padding:10px;
+}
+#maplist a{
+	color:white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.3s;
+}
+#maplist a:hover{
+	color:lime;
+	text-decoration: underline;
+}
+#maplist h3{
+	color:cyan;
+	margin:5px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.3s;
+}
+#maplist h3:hover{
+	color:lime;
+	margin:5px;
+	text-decoration: underline;
+}
+.district{
+	height:500px;
+}
+.st1{
+	fill:white;
+	fill-opacity:0%;
+	transition: 0.3s;
+}
+.st1:hover{
+	fill:white;
+	fill-opacity:30%;
+}
+/* Area elements */
+#filename{
+	display:none;
+}
+#colpick{
+	float:right;
+	color:white;
+	margin-right:35px;
+}
+#colpick p{
+	float:left;
+	margin-top:25px;
+}
+#csquare{
+	width:30px;
+	height:30px;
+	margin:20px 10px;
+	background-color:white;
+}
+#dist_lore h2{
+	color:#3399ff;
+	transition: 0.3s;
+}
+#textArea{
+	width:100%;
+	height:150px;
+	outline:none;
+	resize:vertical;
+	background-color:#000022;
+	color:white;
+	padding:none;
+	border:none;
+}
+#lore{
+	float:left;
+	width:60%;
+	margin-left:20px;
+}
+.st0{
+	fill:white;
+	stroke:white;
+	fill-opacity:0%;
+	transition: 0.3s;
+}
+.st0:hover{
+	fill:white;
+	fill-opacity:30%;
+}
+.areawrap{
+	width:50%;
+	margin-left:20px;
+	float:left;
+	min-width:400px;
+}
+.lore{
+	width:45%;
+	float:left;
+	display:none;
+	min-width:300px;
+}
+.lore p{
+	color:#999;
+	margin-top:5px;
+	margin-left:20px;
+	
+}
+.nav{
+	width:35%;
+	float:left;
+	display:none;
+	transition: 0.3s;
+}
+.nav p{
+	display:none;
+}
+.nav h2{
+	color:yellow;
+}
+.notes{
+	float:left;
+	width:35%;
+	margin-left:20px;
+	min-width:400px;
+}
+
