@@ -1,4 +1,4 @@
-var submit = document.getElementById('submit').value;
+var submit = document.getElementById('submit');
 submit.addEventListener('click', changeLang);
 
 function changeLang(){
