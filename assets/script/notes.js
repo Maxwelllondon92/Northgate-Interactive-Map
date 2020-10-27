@@ -14,18 +14,20 @@ function loadString(){
 function saveString(){
 	var textArea = document.getElementById('textArea').value
 	var filename = document.getElementById("filename").innerHTML;
+	var displayname = document.getElementsByTagName("h1")[0].innerHTML;
     localStorage.setItem(filename, textArea) ;
-	alert('Notes saved!')
+	alert('Notes for '+displayname+' saved!')
 }
 
 function wipeNotes() {
     var r = confirm("Are you sure you want to delete your notes?");
     
 	var filename = document.getElementById("filename").innerHTML;
+	var displayname = document.getElementsByTagName("h1")[0].innerHTML;
 	if (r == true) {
 	  var textArea = document.getElementById('textArea').value = '';
 	  localStorage.setItem(filename, textArea) ;
-    alert('Notes for '+filename+' deleted')
+    alert('Notes for '+displayname+' deleted')
   };
 }
 
