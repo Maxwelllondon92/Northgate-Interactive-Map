@@ -3,7 +3,7 @@ submit.addEventListener('click', changeLang);
 
 function changeLang(){
     var file = new XMLHttpRequest();
-    file.open("GET", '../lang/en/example.txt', true);
+    file.open("GET", 'assets/lang/en/example.txt', true);
     file.onreadystatechange = function() {
 		  alert(file.responseText);
         }
