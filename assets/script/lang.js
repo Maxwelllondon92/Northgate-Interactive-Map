@@ -6,7 +6,7 @@ var url ="assets/lang/"+lang+"/"+filename+".json"
 window.onload = check;
 function check(){
 if (lang === null){
-	window.location.href = window.location.hostname+"/lang.html";
+	window.location.href = window.location.hostname+"/northgate/lang.html";
 	setTimeout(check, 300);
 }else{
 	setTimeout(pop, 300);
