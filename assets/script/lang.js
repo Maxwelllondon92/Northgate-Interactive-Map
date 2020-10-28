@@ -4,7 +4,7 @@ var lang = localStorage.getItem('language')
 var xmlhttp = new XMLHttpRequest();
 var url ="assets/lang/"+lang+"/"+filename+".json"
 if (lang === null){
-localStorage.setItem('localstorage','en')
+localStorage.setItem('language','en')
 };
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
