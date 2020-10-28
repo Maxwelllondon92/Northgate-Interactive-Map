@@ -1,11 +1,17 @@
-window.onload = function(){
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
 var xmlhttp = new XMLHttpRequest();
 var url ="assets/lang/"+lang+"/"+filename+".json"
+
+window.onload = check;
+function check(){
 if (lang === null){
-localStorage.setItem('language','en')
+	localStorage.setItem('language','en');
+	setTimeout(check, 300);
+}else{
+	setTimeout(pop, 300);
 };
+function pop(){
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var file = JSON.parse(this.responseText);
@@ -16,4 +22,4 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
-}
+}}
