@@ -220,3 +220,8 @@ a:visited{
 	min-width:400px;
 }
 
+.flag img{
+	margin:20px;
+	width:64px
+}
+

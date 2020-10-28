@@ -1,11 +1,18 @@
-var submit = document.getElementById('submit');
-submit.addEventListener('click', changeLang);
+window.onload = function(){
+var filename = document.getElementById('filename').innerHTML
+var lang = localStorage.getItem('language')
+var xmlhttp = new XMLHttpRequest();
+var url ="assets/lang/"+lang+"/"+filename+".json"
 
-function changeLang(){
-	var file;
-	fetch("../lang/en/example.json")
-		.then(res => res.json())
-		.then(data => file = JSON.parse(data));
-	alert(file.lang);
-	alert(file.text);
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var file = JSON.parse(this.responseText);
+    console.log(file)
+    alert(file.lang)
+    alert(file.text)
+  }
+};
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+
 }
