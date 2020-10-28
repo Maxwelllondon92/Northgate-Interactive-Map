@@ -6,7 +6,7 @@ var url ="assets/lang/"+lang+"/"+filename+".json"
 window.onload = check;
 function check(){
 if (lang === null){
-	localStorage.setItem('language','en');
+	window.location.href = window.location.hostname+"/lang.html";
 	setTimeout(check, 300);
 }else{
 	setTimeout(pop, 300);
