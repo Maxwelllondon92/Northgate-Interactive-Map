@@ -1,6 +1,6 @@
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
-var xmlhttp = new XMLHttpRequest();
+var xml = new XMLHttpRequest();
 var url ="../assets/lang/"+lang+"/"+filename+".json"
 var common ="../assets/lang/"+lang+"/area_common.json"
 
@@ -13,23 +13,25 @@ if (lang === null){
 	setTimeout(pop, 10);
 	setTimeout(comm, 10);
 };
+
 function comm(){
-xmlhttp.onreadystatechange = function() {
+xml.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var com = JSON.parse(this.responseText);
 	document.getElementById("colpick").firstElementChild.innerHTML=com.colpick;
-	document.getElementById("csquare").innerHTML=com.csquare;
-	document.getElementById("notes").innerHTML=com.notes;
-	document.getElementById("textArea").innerHTML=com.textArea;
+	document.getElementById("csquare").title=com.csquare;
+	document.getElementsByClassName("notes")[0].firstElementChild.innerHTML=com.notes;
+	document.getElementById("textArea").placeholder=com.textArea;
 	document.getElementById("save").innerHTML=com.save;
 	document.getElementById("wipe").innerHTML=com.wipe;
   }
 };
-xmlhttp.open("GET", common, true);
-xmlhttp.send();
-}
+xml.open("GET", common, true);
+xml.send();
+};
+
 function pop(){
-xmlhttp.onreadystatechange = function() {
+xml.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var file = JSON.parse(this.responseText);
     console.log(file)
@@ -37,7 +39,7 @@ xmlhttp.onreadystatechange = function() {
     alert(file.text)
   }
 };
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
+xml.open("GET", url, true);
+xml.send();
 }
 }
