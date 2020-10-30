@@ -1,4 +1,4 @@
-var notes = document.getElementsByClassName("notes")[0];
+var notes = document.getElementById("notes");
 var lore = document.getElementById("lore");
 var wrap = document.getElementsByClassName("areawrap")[0];
 var text = document.getElementsByClassName("lore");

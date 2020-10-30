@@ -1,16 +1,16 @@
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
 var xmlhttp = new XMLHttpRequest();
-var url ="assets/lang/"+lang+"/"+filename+".json";
+var url ="assets/lang/"+lang+"/!"+filename+".json";
 var loc = window.location.pathname;
 
 window.onload = check;
 function check(){
 	if (lang === null){
 		window.location.href = "lang.html";
-		setTimeout(check, 300);
+		check();
 	}else{
-		setTimeout(pop, 1);
+		pop();
 	};
 	function pop(){
 		xmlhttp.onreadystatechange = function() {

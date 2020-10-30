@@ -1,0 +1,8 @@
+{
+	"colpick"	:	"District color:",
+	"csquare"	:	["Scroll to change","Click to reset"],
+	"notes"		:	"Notes:",
+	"textArea"	:	"Leave a note...",
+	"save"		:	"Save Notes",
+	"wipe"		:	"Wipe Notes"
+}
