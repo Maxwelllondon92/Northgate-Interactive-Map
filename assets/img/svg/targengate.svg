@@ -6,7 +6,7 @@
 <a href=".html"><circle id="icon03" class="st0"  cx="151.329" cy="184.121" r="20"/></a>
 <a href=".html"><circle id="icon04" class="st0"  cx="394" cy="137.121" r="20"/></a>
 <a href=".html"><circle id="icon05" class="st0"  cx="209.331" cy="183.121" r="20"/></a>
-<a href=".html"><polygon id="icon06" class="st0"  points="136.714,62.132 147.197,98.74 170.453,79.788 "/></a>
-<a href=".html"><polygon id="icon07" class="st0"  points="423.454,217.315 396.197,190.724 385.401,218.714 "/></a>
-<a href=".html"><polygon id="icon08" class="st0"  points="161.059,341.799 196.414,327.657 175.201,306.444 "/></a>
+<a href="darrowtown.html"><polygon id="icon06" class="st0"  points="136.714,62.132 147.197,98.74 170.453,79.788 "/></a>
+<a href="ascalan_dist.html"><polygon id="icon07" class="st0"  points="423.454,217.315 396.197,190.724 385.401,218.714 "/></a>
+<a href="marcher_dist.html"><polygon id="icon08" class="st0"  points="161.059,341.799 196.414,327.657 175.201,306.444 "/></a>
 </svg>

@@ -10,8 +10,8 @@
 <a href=".html"><circle id="icon07" class="st0"  cx="503.779" cy="226.007" r="20"/></a>
 <a href=".html"><circle id="icon08" class="st0"  cx="262.779" cy="175.007" r="20"/></a>
 <a href=".html"><circle id="icon09" class="st0"  cx="280.779" cy="274.007" r="20"/></a>
-<a href=".html"><polygon id="icon10" class="st0"  points="222.779,9.542 207.779,44.542 237.779,44.542 "/></a>
-<a href=".html"><polygon id="icon11" class="st0"  points="107.652,163.163 121.794,198.518 143.008,177.305 "/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="701.278,164.341 665.923,178.483 687.136,199.696 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="748.112,234.34 713.112,219.34 713.112,249.34 "/></a>
+<a href="oakgate.html"><polygon id="icon10" class="st0"  points="222.779,9.542 207.779,44.542 237.779,44.542 "/></a>
+<a href="ashers_hill.html"><polygon id="icon11" class="st0"  points="107.652,163.163 121.794,198.518 143.008,177.305 "/></a>
+<a href="redwani_dist.html"><polygon id="icon12" class="st0"  points="701.278,164.341 665.923,178.483 687.136,199.696 "/></a>
+<a href="crowne_dist.html"><polygon id="icon13" class="st0"  points="748.112,234.34 713.112,219.34 713.112,249.34 "/></a>
 </svg>

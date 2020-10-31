@@ -11,7 +11,7 @@
 <a href=".html"><circle id="icon08" class="st0"  cx="202" cy="223" r="20"/></a>
 <a href=".html"><circle id="icon09" class="st0"  cx="197" cy="315" r="20"/></a>
 <a href=".html"><circle id="icon10" class="st0"  cx="310" cy="428" r="20"/></a>
-<a href=".html"><polygon id="icon11" class="st0"  points="229.501,136.584 243.643,171.94 264.856,150.726 "/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="43.667,370.333 78.667,385.333 78.667,355.333 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="415.499,244.949 401.357,209.594 380.144,230.807 "/></a>
+<a href="ascalan_dist.html"><polygon id="icon11" class="st0"  points="229.501,136.584 243.643,171.94 264.856,150.726 "/></a>
+<a href="marcher_dist.html"><polygon id="icon12" class="st0"  points="43.667,370.333 78.667,385.333 78.667,355.333 "/></a>
+<a href="balder_dist.html"><polygon id="icon13" class="st0"  points="415.499,244.949 401.357,209.594 380.144,230.807 "/></a>
 </svg>

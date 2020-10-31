@@ -18,8 +18,9 @@ function check(){
 		nxml.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
 				var com = JSON.parse(this.responseText);
-				document.getElementById("colpick").firstElementChild.innerHTML=com.colpick;
-				document.getElementById("csquare").title=com.csquare[0]+"\n"+com.csquare[1];
+				document.getElementById("colsetter").innerHTML=com.colpick;
+				//document.getElementById("colpick").firstElementChild.innerHTML=com.colpick;
+				//document.getElementById("csquare").title=com.csquare[0]+"\n"+com.csquare[1];
 				document.getElementById("notes").firstElementChild.innerHTML=com.notes;
 				document.getElementById("textArea").placeholder=com.textArea;
 				document.getElementById("save").innerHTML=com.save;

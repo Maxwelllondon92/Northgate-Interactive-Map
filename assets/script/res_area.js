@@ -5,6 +5,8 @@ var text = document.getElementsByClassName("lore");
 var nav = document.getElementsByClassName("nav");
 
 window.onload = function(){
+		notes.style.opacity="1";
+		lore.style.opacity="1";
     if (window.innerWidth > 1300){
 		notes.style.width="35%";
 		lore.style.width="60%";
