@@ -8,7 +8,7 @@
 <a href=".html"><circle id="icon05" class="st0"  cx="140" cy="346" r="20"/></a>
 <a href=".html"><circle id="icon06" class="st0"  cx="46" cy="236" r="20"/></a>
 <a href=".html"><circle id="icon07" class="st0"  cx="145" cy="129" r="20"/></a>
-<a href=".html"><polygon id="icon08" class="st0"  points="291.567,80.667 251.567,63.167 251.567,98.167 "/></a>
-<a href=".html"><polygon id="icon09" class="st0"  points="357.901,295.532 317.901,278.032 317.901,313.032 "/></a>
-<a href=".html"><polygon id="icon10" class="st0"  points="268.76,388.951 305.877,365.961 277.066,346.088 "/></a>
+<a href="bronze_hill.html"><polygon id="icon08" class="st0"  points="291.567,80.667 251.567,63.167 251.567,98.167 "/></a>
+<a href="coinflow_dist.html"><polygon id="icon09" class="st0"  points="357.901,295.532 317.901,278.032 317.901,313.032 "/></a>
+<a href="temple_dist.html"><polygon id="icon10" class="st0"  points="268.76,388.951 305.877,365.961 277.066,346.088 "/></a>
 </svg>

@@ -1,39 +1,24 @@
-var TRange = null;
-
-function findString(str) {
-    if (parseInt(navigator.appVersion) < 4) return;
-    var strFound;
-    if (window.find) {
-        // CODE FOR BROWSERS THAT SUPPORT window.find
-        strFound = self.find(str);
-        if (strFound && self.getSelection && !self.getSelection().anchorNode) {
-            strFound = self.find(str)
-        }
-        if (!strFound) {
-            strFound = self.find(str, 0, 1)
-            while (self.find(str, 0, 1)) continue
-        }
-    } else if (navigator.appName.indexOf("Microsoft") != -1) {
-        // EXPLORER-SPECIFIC CODE        
-        if (TRange != null) {
-            TRange.collapse(false)
-            strFound = TRange.findText(str)
-            if (strFound) TRange.select()
-        }
-        if (TRange == null || strFound == 0) {
-            TRange = self.document.body.createTextRange()
-            strFound = TRange.findText(str)
-            if (strFound) TRange.select()
-        }
-    } else if (navigator.appName == "Opera") {
-        alert("Opera browsers not supported, sorry...")
-        return;
+var searchbar = document.getElementsByClassName("dropdown")[0]
+searchbar.addEventListener('mouseover',show)
+searchbar.addEventListener('mouseout',hide)
+function show() {
+  document.getElementById("myDropdown").style.display = "block";
+}
+function hide() {
+  document.getElementById("myDropdown").style.display = "none";
+}
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("searchbar");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
     }
-    if (!strFound) alert("String '" + str + "' not found!")
-        return;
-};
-
-document.getElementById('f1').onsubmit = function() {
-    findString(this.t1.value);
-    return false;
-};
+  }
+}

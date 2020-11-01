@@ -11,10 +11,10 @@
 <a href=".html"><circle id="icon07" class="st0"  cx="427" cy="617" r="20"/></a>
 <a href=".html"><circle id="icon08" class="st0"  cx="549" cy="408" r="20"/></a>
 <a href=".html"><circle id="icon09" class="st0"  cx="620" cy="512" r="20"/></a>
-<a href=".html"><polygon id="icon10" class="st0"  points="353.255,144.593 330.196,174.896 359.295,182.189 "/></a>
-<a href=".html"><polygon id="icon11" class="st0"  points="608.396,305.477 574.589,323.001 597.771,342.044 "/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="705.147,484.333 670.147,469.333 670.147,499.333 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="83.336,459.416 119.183,446.569 98.755,424.599 "/></a>
-<a href=".html"><polygon id="icon14" class="st0"  points="309,626.167 324,591.167 294,591.167 "/></a>
-<a href=".html"><rect id="icon15" class="st0" x="415" y="497.5"  width="35" height="35"/></a>
+<a href=".html"><rect id="icon10" class="st0" x="415" y="497.5"  width="35" height="35"/></a>
+<a href="targengate.html"><polygon id="icon11" class="st0"  points="353.255,144.593 330.196,174.896 359.295,182.189 "/></a>
+<a href="ascalan_dist.html"><polygon id="icon12" class="st0"  points="608.396,305.477 574.589,323.001 597.771,342.044 "/></a>
+<a href="ashers_hill.html"><polygon id="icon13" class="st0"  points="705.147,484.333 670.147,469.333 670.147,499.333 "/></a>
+<a href="greenfallen_dist.html"><polygon id="icon14" class="st0"  points="83.336,459.416 119.183,446.569 98.755,424.599 "/></a>
+<a href="mew_isle.html"><polygon id="icon15" class="st0"  points="309,626.167 324,591.167 294,591.167 "/></a>
 </svg>

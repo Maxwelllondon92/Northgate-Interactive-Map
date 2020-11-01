@@ -22,9 +22,9 @@
 <a href=".html"><circle id="icon19" class="st0"  cx="157.301" cy="298" r="20"/></a>
 <a href=".html"><rect id="icon20" class="st0" x="276.5" y="508.5"  width="35" height="35"/></a>
 <a href=".html"><rect id="icon21" class="st0" x="570.401" y="412"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon22" class="st0"  points="558.744,197.391 526.766,227.118 558.873,241.052 "/></a>
-<a href=".html"><polygon id="icon23" class="st0"  points="598.603,222.552 559.681,242.334 586.715,264.563 "/></a>
-<a href=".html"><polygon id="icon24" class="st0"  points="552.849,799.079 528.245,763.011 509.661,792.669 "/></a>
-<a href=".html"><polygon id="icon25" class="st0"  points="50.295,427.851 71.7,465.905 92.77,437.957 "/></a>
-<a href=".html"><polygon id="icon26" class="st0"  points="342.317,789.523 382.975,773.613 358.226,748.864 "/></a>
+<a href="lantern_dist.html"><polygon id="icon22" class="st0"  points="558.744,197.391 526.766,227.118 558.873,241.052 "/></a>
+<a href="coinflow_dist.html"><polygon id="icon23" class="st0"  points="598.603,222.552 559.681,242.334 586.715,264.563 "/></a>
+<a href="thalonian_dist.html"><polygon id="icon24" class="st0"  points="552.849,799.079 528.245,763.011 509.661,792.669 "/></a>
+<a href="hightown.html"><polygon id="icon25" class="st0"  points="50.295,427.851 71.7,465.905 92.77,437.957 "/></a>
+<a href="craftsmen_dist.html"><polygon id="icon26" class="st0"  points="342.317,789.523 382.975,773.613 358.226,748.864 "/></a>
 </svg>

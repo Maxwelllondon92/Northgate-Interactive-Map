@@ -1,38 +1,16 @@
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
-var lxml = new XMLHttpRequest();
-var nxml = new XMLHttpRequest();
-var url ="../assets/lang/"+lang+"/"+filename+".json"
-var common ="../assets/lang/"+lang+"/!area_common.json"
-
-window.onload = check();
-function check(){
+var lorexml = new XMLHttpRequest();
+var loreURL ="../assets/lang/"+lang+"/"+filename+".json"
+var loreCheck = setInterval(function() {
 	if (lang === null){
-		window.location.href = "lang.html";
-		check();
+		window.location.href = "../lang.html";
 	}else{
-		notes();
+		clearInterval(loreCheck);
 		lore();
 	};
-	function notes(){
-		nxml.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-				var com = JSON.parse(this.responseText);
-				document.getElementById("colsetter").innerHTML=com.colpick;
-				//document.getElementById("colpick").firstElementChild.innerHTML=com.colpick;
-				//document.getElementById("csquare").title=com.csquare[0]+"\n"+com.csquare[1];
-				document.getElementById("notes").firstElementChild.innerHTML=com.notes;
-				document.getElementById("textArea").placeholder=com.textArea;
-				document.getElementById("save").innerHTML=com.save;
-				document.getElementById("wipe").innerHTML=com.wipe;
-				//alert("notes OK");
-			}
-		};
-		nxml.open("GET", common, true);
-		nxml.send();
-	};
-	 function lore(){
-        lxml.onreadystatechange = function() {
+	function lore(){
+        lorexml.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var file = JSON.parse(this.responseText);
 				var title = document.getElementsByTagName("title")[0];
@@ -132,10 +110,10 @@ function check(){
                 lore28.getElementsByTagName("p")[0].innerHTML=file.lore28[1];
                 lore29.getElementsByTagName("p")[0].innerHTML=file.lore29[1];
                 lore30.getElementsByTagName("p")[0].innerHTML=file.lore30[1];
-				//alert("lore OK");
+				//console.log("lore OK");
             }
         };
-        lxml.open("GET", url, true);
-        lxml.send();
+        lorexml.open("GET", loreURL, true);
+        lorexml.send();
     }
-}
+},100);

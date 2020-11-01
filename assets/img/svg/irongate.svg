@@ -8,8 +8,8 @@
 <a href=".html"><circle id="icon05" class="st0"  cx="363.381" cy="610.832" r="20"/></a>
 <a href=".html"><circle id="icon06" class="st0"  cx="103" cy="318.137" r="20"/></a>
 <a href=".html"><circle id="icon07" class="st0"  cx="362.043" cy="240.91" r="20"/></a>
-<a href=".html"><polygon id="icon08" class="st0"  points="78.503,147.246 113.278,162.755 113.716,132.759 "/></a>
-<a href=".html"><polygon id="icon09" class="st0"  points="322.978,92.958 287.624,107.098 308.837,128.311 "/></a>
-<a href=".html"><polygon id="icon10" class="st0"  points="404.234,524.888 366.269,527.802 380.161,554.39 "/></a>
-<a href=".html"><polygon id="icon11" class="st0"  points="287.624,610.832 302.624,575.835 272.625,575.835 "/></a>
+<a href="irontown.html"><polygon id="icon08" class="st0"  points="78.503,147.246 113.278,162.755 113.716,132.759 "/></a>
+<a href="greenfallen_dist.html"><polygon id="icon09" class="st0"  points="322.978,92.958 287.624,107.098 308.837,128.311 "/></a>
+<a href="golden_oak_hill.html"><polygon id="icon10" class="st0"  points="404.234,524.888 366.269,527.802 380.161,554.39 "/></a>
+<a href="dirktown_slums.html"><polygon id="icon11" class="st0"  points="287.624,610.832 302.624,575.835 272.625,575.835 "/></a>
 </svg>

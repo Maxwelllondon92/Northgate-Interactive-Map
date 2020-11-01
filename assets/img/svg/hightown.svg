@@ -18,7 +18,7 @@
 <a href=".html"><rect id="icon15" class="st0" x="415.214" y="407.636"  width="35" height="35"/></a>
 <a href=".html"><rect id="icon16" class="st0" x="363.714" y="310.636"  width="35" height="35"/></a>
 <a href=".html"><rect id="icon17" class="st0" x="370" y="152.361"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon18" class="st0"  points="532.213,206.861 497.215,191.862 497.215,221.861 "/></a>
-<a href=".html"><polygon id="icon19" class="st0"  points="146.771,600.797 161.771,565.8 131.771,565.8 "/></a>
-<a href=".html"><polygon id="icon20" class="st0"  points="158.388,278.37 170.579,314.442 192.917,294.418 "/></a>
+<a href="temple_dist.html"><polygon id="icon18" class="st0"  points="532.213,206.861 497.215,191.862 497.215,221.861 "/></a>
+<a href="andarien_dist.html"><polygon id="icon19" class="st0"  points="146.771,600.797 161.771,565.8 131.771,565.8 "/></a>
+<a href="targenhold.html"><polygon id="icon20" class="st0"  points="158.388,278.37 170.579,314.442 192.917,294.418 "/></a>
 </svg>

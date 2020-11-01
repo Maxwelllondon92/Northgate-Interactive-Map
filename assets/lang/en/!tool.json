@@ -1,0 +1,13 @@
+{
+	"creset"	:	"Reset Color",
+	"notes"		:	"Notes:",
+	"textArea"	:	"Leave a note...",
+	"save"		:	"Save Notes",
+	"wipe"		:	"Wipe Notes",
+	"note_ref"	:	"Notes for ",
+	"save_no"	:	"Can't save empty notes!",
+	"save_ok"	:	" Saved!",
+	"del_req"	:	"Are you sure you want to delete your notes?",
+	"del_ok"	:	" Deleted!",
+	"save_load"	:	"Save Loaded!"
+}

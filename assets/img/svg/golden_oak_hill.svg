@@ -12,8 +12,8 @@
 <a href=".html"><circle id="icon09" class="st0"  cx="266.835" cy="83.264" r="20"/></a>
 <a href=".html"><circle id="icon10" class="st0"  cx="296.835" cy="285.881" r="20"/></a>
 <a href=".html"><rect id="icon11" class="st0" x="238.5" y="464"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="357.436,80.89 322.082,95.031 343.295,116.243 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="404.758,144.14 369.76,129.14 369.76,159.139 "/></a>
-<a href=".html"><polygon id="icon14" class="st0"  points="92.462,561.663 127.815,547.522 106.603,526.31 "/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="75.14,442.077 110.138,457.077 110.138,427.078 "/></a>
+<a href="greenfallen_dist.html"><polygon id="icon12" class="st0"  points="357.436,80.89 322.082,95.031 343.295,116.243 "/></a>
+<a href="durner_dist.html"><polygon id="icon13" class="st0"  points="404.758,144.14 369.76,129.14 369.76,159.139 "/></a>
+<a href="dirktown_slums.html"><polygon id="icon14" class="st0"  points="92.462,561.663 127.815,547.522 106.603,526.31 "/></a>
+<a href="irongate.html"><polygon id="icon15" class="st0"  points="75.14,442.077 110.138,457.077 110.138,427.078 "/></a>
 </svg>

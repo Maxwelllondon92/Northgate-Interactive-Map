@@ -11,10 +11,10 @@
 <a href=".html"><circle id="icon08" class="st0"  cx="445.697" cy="511.027" r="20"/></a>
 <a href=".html"><circle id="icon09" class="st0"  cx="373.332" cy="644.027" r="20"/></a>
 <a href=".html"><circle id="icon10" class="st0"  cx="452.838" cy="336.127" r="20"/></a>
-<a href=".html"><polygon id="icon11" class="st0"  points="454.641,86.806 413.982,102.716 438.731,127.465 "/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="333.003,88.279 348.912,128.938 373.661,104.189 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="264.281,699.796 281.781,659.796 246.781,659.796 "/></a>
-<a href=".html"><polygon id="icon14" class="st0"  points="508.244,674.41 525.744,634.41 490.744,634.41 "/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="40.434,269.71 80.434,287.21 80.434,252.21 "/></a>
-<a href=".html"><polygon id="icon16" class="st0"  points="22.008,359.348 58.859,335.933 29.821,316.393 "/></a>
+<a href="mithrilgate.html"><polygon id="icon11" class="st0"  points="454.641,86.806 413.982,102.716 438.731,127.465 "/></a>
+<a href="bronze_hill.html"><polygon id="icon12" class="st0"  points="333.003,88.279 348.912,128.938 373.661,104.189 "/></a>
+<a href="shriner_dist.html"><polygon id="icon13" class="st0"  points="264.281,699.796 281.781,659.796 246.781,659.796 "/></a>
+<a href="mariqtown.html"><polygon id="icon14" class="st0"  points="508.244,674.41 525.744,634.41 490.744,634.41 "/></a>
+<a href="lantern_dist.html"><polygon id="icon15" class="st0"  points="40.434,269.71 80.434,287.21 80.434,252.21 "/></a>
+<a href="temple_dist.html"><polygon id="icon16" class="st0"  points="22.008,359.348 58.859,335.933 29.821,316.393 "/></a>
 </svg>

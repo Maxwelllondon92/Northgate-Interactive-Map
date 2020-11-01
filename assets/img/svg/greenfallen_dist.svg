@@ -7,8 +7,8 @@
 <a href=".html"><circle id="icon04" class="st0"  cx="363.661" cy="239.109" r="20"/></a>
 <a href=".html"><circle id="icon05" class="st0"  cx="195.05" cy="420.439" r="20"/></a>
 <a href=".html"><circle id="icon06" class="st0"  cx="426.979" cy="304.517" r="20"/></a>
-<a href=".html"><polygon id="icon07" class="st0"  points="543.28,102.602 507.927,116.743 529.139,137.956 "/></a>
-<a href=".html"><polygon id="icon08" class="st0"  points="501.906,490.434 516.906,455.436 486.907,455.436 "/></a>
-<a href=".html"><polygon id="icon09" class="st0"  points="395.605,466.222 430.958,452.082 409.745,430.869 "/></a>
-<a href=".html"><polygon id="icon10" class="st0"  points="71.328,446.225 106.681,432.084 85.469,410.871 "/></a>
+<a href="marcher_dist.html"><polygon id="icon07" class="st0"  points="543.28,102.602 507.927,116.743 529.139,137.956 "/></a>
+<a href="durner_dist.html"><polygon id="icon08" class="st0"  points="501.906,490.434 516.906,455.436 486.907,455.436 "/></a>
+<a href="golden_oak_hill.html"><polygon id="icon09" class="st0"  points="395.605,466.222 430.958,452.082 409.745,430.869 "/></a>
+<a href="irongate.html"><polygon id="icon10" class="st0"  points="71.328,446.225 106.681,432.084 85.469,410.871 "/></a>
 </svg>

@@ -89,7 +89,7 @@ details p{
   background: rgb(12,16,37);
   background: linear-gradient(0deg, rgba(12,16,37,1) 0%, rgba(0,12,97,1) 100%);
 }
-.topnav a {
+.active {
   float: left;
   text-align: center;
   text-decoration: none;
@@ -119,18 +119,7 @@ details p{
 	list-style-type:none;
 	float:left;
 	padding:0px;
-}
-#f1{
-	float:left;
-	margin-top:22px;
-}
-#f1 input[type=submit] {
-    display: none;
-}
-.t1 {
-    width:300px;
-	border: 2px solid cyan;
-    padding: 1px 5px;
+	margin:21px 0px;
 }
 #mapimg{
 	width: 100%;
@@ -138,35 +127,7 @@ details p{
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#maplist div{
-	float:left;
-	width:15em;
-	border-top:double;
-	border-color:white;
-	padding:10px;
-}
-#maplist a{
-	color:white;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	transition: 0.3s;
-}
-#maplist a:hover{
-	color:lime;
-	text-decoration: underline;
-}
-#maplist h3{
-	color:cyan;
-	margin:5px;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	transition: 0.3s;
-}
-#maplist h3:hover{
-	color:lime;
-	margin:5px;
-	text-decoration: underline;
-}
+
 .district{
 	height:500px;
 }
@@ -265,4 +226,80 @@ details p{
 	margin:20px;
 	width:64px
 }
+#searchbar {
+  box-sizing: border-box;
+  background-image: url('../img/searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: inherit;
+}
 
+#searchbar:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  margin: 15px 0px;
+  display: inline-block;
+  float:right;
+  position:relative;
+  width:350px;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #19194d;
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  width: inherit;
+}
+
+#list{
+  max-height:500px;/* you can change as you need it */
+  overflow:auto;/* to get scroll */
+  background-color:#000022;
+}
+
+.dropdown-content a {
+  width:94%;
+  padding: 12px 3%;
+  text-decoration: none;
+  display: block;
+  position:relative;
+}
+.dropdown h3{
+	color:deepskyblue;
+	margin: 0px;
+}
+.dropdown a:hover {
+	background-color: slateblue;
+	text-decoration: none;
+}
+
+.show {display: block;}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color:#000022;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkslateblue; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: slateblue; 
+}

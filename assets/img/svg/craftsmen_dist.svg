@@ -12,8 +12,7 @@
 <a href=".html"><circle id="icon09" class="st0"  cx="169.727" cy="422.325" r="20"/></a>
 <a href=".html"><rect id="icon10" class="st0" x="347.627" y="365.467"  width="35" height="35"/></a>
 <a href=".html"><rect id="icon11" class="st0" x="320.169" y="246"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon12" class="st0"  points="-119.527,225.137 -134.527,260.134 -104.527,260.134 "/></a>
-<a href=".html"><polygon id="icon13" class="st0"  points="620.799,212.414 585.278,226.127 606.233,247.594 "/></a>
-<a href=".html"><polygon id="icon14" class="st0"  points="595.163,436.054 593.914,397.998 566.743,410.714 "/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="42.473,354.665 77.471,369.665 77.471,339.665 "/></a>
+<a href="temple_dist.html"><polygon id="icon12" class="st0"  points="620.799,212.414 585.278,226.127 606.233,247.594 "/></a>
+<a href="freemans_dist.html"><polygon id="icon13" class="st0"  points="595.163,436.054 593.914,397.998 566.743,410.714 "/></a>
+<a href="andarien_dist.html"><polygon id="icon14" class="st0"  points="42.473,354.665 77.471,369.665 77.471,339.665 "/></a>
 </svg>

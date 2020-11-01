@@ -14,8 +14,7 @@
 <a href=".html"><circle id="icon11" class="st0"  cx="704.294" cy="159.855" r="20"/></a>
 <a href=".html"><circle id="icon12" class="st0"  cx="443.519" cy="464.174" r="20"/></a>
 <a href=".html"><circle id="icon13" class="st0"  cx="383.242" cy="264.734" r="20"/></a>
-<a href=".html"><polygon id="icon14" class="st0"  points="768.872,227.881 725.404,231.977 742.379,262.585 "/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="549.374,116.468 550.589,160.112 582.252,145.196 "/></a>
-<a href=".html"><polygon id="icon16" class="st0"  points="147.753,689.18 184.846,666.151 156.014,646.308 "/></a>
-<a href=".html"><polygon id="icon17" class="st0"  points="342.666,207.375 332.841,249.915 367.242,243.462 "/></a>
+<a href="thalonian_dist.html"><polygon id="icon14" class="st0"  points="768.872,227.881 725.404,231.977 742.379,262.585 "/></a>
+<a href="craftsmen_dist.html"><polygon id="icon15" class="st0"  points="549.374,116.468 550.589,160.112 582.252,145.196 "/></a>
+<a href="morn_isle-deadmans_rock.html"><polygon id="icon16" class="st0"  points="147.753,689.18 184.846,666.151 156.014,646.308 "/></a>
 </svg>

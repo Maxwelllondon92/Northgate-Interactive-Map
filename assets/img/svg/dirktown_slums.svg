@@ -5,9 +5,9 @@
 <a href=".html"><circle id="icon02" class="st0"  cx="320.8" cy="194.984" r="20"/></a>
 <a href=".html"><circle id="icon03" class="st0"  cx="715.8" cy="196.984" r="20"/></a>
 <a href=".html"><circle id="icon04" class="st0"  cx="572.193" cy="200.636" r="20"/></a>
-<a href=".html"><polygon id="icon05" class="st0"  points="195.959,359.483 226.884,337.269 201.199,321.769 "/></a>
-<a href=".html"><polygon id="icon06" class="st0"  points="180.432,57.776 165.433,92.774 195.432,92.774 "/></a>
-<a href=".html"><polygon id="icon07" class="st0"  points="346.341,93.674 321.032,122.122 349.488,131.62 "/></a>
-<a href=".html"><polygon id="icon08" class="st0"  points="784.488,37.707 750.314,54.499 773.081,74.035 "/></a>
-<a href=".html"><polygon id="icon09" class="st0"  points="535.052,434.595 533.316,396.558 506.31,409.62 "/></a>
+<a href="smogtown.html"><polygon id="icon05" class="st0"  points="195.959,359.483 226.884,337.269 201.199,321.769 "/></a>
+<a href="irongate.html"><polygon id="icon06" class="st0"  points="180.432,57.776 165.433,92.774 195.432,92.774 "/></a>
+<a href="golden_oak_hill.html"><polygon id="icon07" class="st0"  points="346.341,93.674 321.032,122.122 349.488,131.62 "/></a>
+<a href="durner_dist.html"><polygon id="icon08" class="st0"  points="784.488,37.707 750.314,54.499 773.081,74.035 "/></a>
+<a href="lesser_canden.html"><polygon id="icon09" class="st0"  points="535.052,434.595 533.316,396.558 506.31,409.62 "/></a>
 </svg>
