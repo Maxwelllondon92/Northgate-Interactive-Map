@@ -1,13 +1,13 @@
-{	
-	"dist_lore":["LOWER COMMONS","District Lore"],
-	"lore01":["Sisters of Mora Almshouse","Building Lore"],
-	"lore02":["Pentarch Shrine","Building Lore"],
-	"lore03":["Hall of Hammers","Building Lore"],
-	"lore04":["Darkmaiden Brothel","Building Lore"],
-	"lore05":["To GREATER CANDEN","Building Lore"],
-	"lore06":["To MORN ISLE - DEADMAN'S ROCK","Building Lore"],
-	"lore07":["To OLD MAN'S ROCK","Building Lore"],
-	"lore08":["To UPPER COMMONS","Building Lore"],
+{
+	"dist_lore":["MORN ISLE - DEADMAN'S ROCK","District Lore"],
+	"lore01":["","Building Lore"],
+	"lore02":["To FREEMAN'S DIST.","Building Lore"],
+	"lore03":["To LOWER COMMONS","Building Lore"],
+	"lore04":["","Building Lore"],
+	"lore05":["","Building Lore"],
+	"lore06":["","Building Lore"],
+	"lore07":["","Building Lore"],
+	"lore08":["","Building Lore"],
 	"lore09":["","Building Lore"],
 	"lore10":["","Building Lore"],
 	"lore11":["","Building Lore"],
@@ -30,4 +30,4 @@
 	"lore28":["","Building Lore"],
 	"lore29":["","Building Lore"],
 	"lore30":["","Building Lore"]
-}	
+}

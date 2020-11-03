@@ -1,0 +1,1 @@
+- define area <h1> tag responsiveness in res_area.js

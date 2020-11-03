@@ -15,12 +15,12 @@
 <a href=".html"><circle id="icon12" class="st0"  cx="321.814" cy="715.662" r="20"/></a>
 <a href=".html"><rect id="icon13" class="st0" x="343.314" y="484.636"  width="35" height="35"/></a>
 <a href=".html"><rect id="icon14" class="st0" x="141.314" y="106"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="514.188,934.875 500.047,899.521 478.835,920.734 "/></a>
-<a href=".html"><polygon id="icon16" class="st0"  points="404.441,929.376 439.794,915.235 418.582,894.023 "/></a>
-<a href=".html"><polygon id="icon17" class="st0"  points="534.313,586.692 499.315,571.693 499.315,601.692 "/></a>
-<a href=".html"><polygon id="icon18" class="st0"  points="232.968,690.475 268.391,676.51 247.284,655.192 "/></a>
-<a href=".html"><polygon id="icon19" class="st0"  points="156.454,523.264 190.863,506.959 168.376,487.102 "/></a>
-<a href=".html"><polygon id="icon20" class="st0"  points="462.554,327.039 424.99,333.265 441.157,358.535 "/></a>
-<a href=".html"><polygon id="icon21" class="st0"  points="92.738,127.969 127.735,142.968 127.735,112.969 "/></a>
-<a href=".html"><polygon id="icon22" class="st0"  points="143.237,36.268 128.237,71.266 158.236,71.266 "/></a>
+<a href="lower_commons.html"><polygon id="icon15" class="st0"  points="514.188,934.875 500.047,899.521 478.835,920.734 "/></a>
+<a href="upper_commons.html"><polygon id="icon16" class="st0"  points="404.441,929.376 439.794,915.235 418.582,894.023 "/></a>
+<a href="the_narrows.html"><polygon id="icon17" class="st0"  points="534.313,586.692 499.315,571.693 499.315,601.692 "/></a>
+<a href="greater_canden.html"><polygon id="icon18" class="st0"  points="232.968,690.475 268.391,676.51 247.284,655.192 "/></a>
+<a href="lesser_canden.html"><polygon id="icon19" class="st0"  points="156.454,523.264 190.863,506.959 168.376,487.102 "/></a>
+<a href="andarien_dist.html"><polygon id="icon20" class="st0"  points="462.554,327.039 424.99,333.265 441.157,358.535 "/></a>
+<a href="graver_hill.html"><polygon id="icon21" class="st0"  points="92.738,127.969 127.735,142.968 127.735,112.969 "/></a>
+<a href="durner_dist.html"><polygon id="icon22" class="st0"  points="143.237,36.268 128.237,71.266 158.236,71.266 "/></a>
 </svg>
