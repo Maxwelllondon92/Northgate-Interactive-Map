@@ -1,7 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 /* All-pages elements */
+/*Marcellus*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/*Spectral*/
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 body {
+	font-family: 'Spectral';
     background-color: #0a0a0f;
 	background-image: url("../img/northgate_dark.png");
     background-size: 100%;
