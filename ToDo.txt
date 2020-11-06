@@ -1,1 +1,1 @@
-- define area <h1> tag responsiveness in res_area.js
+- Show building in a district when searching only the district name (e.g. searching "parks" show all parks)

@@ -3,11 +3,16 @@ var lore = document.getElementById("lore");
 var wrap = document.getElementsByClassName("areawrap")[0];
 var text = document.getElementsByClassName("lore");
 var nav = document.getElementsByClassName("nav");
+var h1 = document.getElementsByTagName("h1")[0];
+var coldiv = document.getElementById("colpick")
 
 window.onload = function(){
-		notes.style.opacity="1";
+	coldiv.style.display="block";	
+	notes.style.opacity="1";
 		lore.style.opacity="1";
     if (window.innerWidth > 1300){
+		h1.style.fontSize = "xx-large";
+		h1.style.margin = "19px 0px";
 		notes.style.width="35%";
 		lore.style.width="60%";
 		wrap.style.width="50%";
@@ -18,6 +23,9 @@ window.onload = function(){
 		nav[i].style.width="45%";
 		};
     }else if (window.innerWidth <900){
+		h1.style.fontSize = "x-large";
+		h1.style.margin = "24px 0px";
+		coldiv.style.display="none";
 		notes.style.width="90%";
 		lore.style.width="90%";
 		wrap.style.width="90%";
@@ -28,6 +36,9 @@ window.onload = function(){
 		nav[i].style.width="45%";
 		};
 	}else{
+		h1.style.fontSize = "xx-large";
+		h1.style.margin = "19px 0px";
+		coldiv.style.display="block";	
         notes.style.width="45%";
 		lore.style.width="50%";
 		wrap.style.width="100%";
@@ -43,6 +54,9 @@ window.onload = function(){
 if (window.attachEvent) {
   window.attachEvent('onresize', function() {
     if (window.innerWidth > 1300){
+		h1.style.fontSize = "xx-large";
+		h1.style.margin = "19px 0px";
+		coldiv.style.display="block";	
 		notes.style.width="35%";
 		lore.style.width="60%";
 		wrap.style.width="50%";
@@ -53,6 +67,9 @@ if (window.attachEvent) {
 		nav[i].style.width="45%";
 		};
     }else if (window.innerWidth <900){
+		h1.style.margin = "24px 0px";
+		h1.style.fontSize = "x-large";
+		coldiv.style.display="none";	
 		notes.style.width="90%";
 		lore.style.width="90%";
 		wrap.style.width="90%";
@@ -63,6 +80,9 @@ if (window.attachEvent) {
 		nav[i].style.width="45%";
 		};
 	}else{
+		h1.style.margin = "19px 0px";
+		h1.style.fontSize = "xx-large";
+		coldiv.style.display="block";	
         notes.style.width="45%";
 		lore.style.width="50%";
 		wrap.style.width="100%";
@@ -76,6 +96,9 @@ if (window.attachEvent) {
 	} else if (window.addEventListener) {
   window.addEventListener('resize', function() {
     if (window.innerWidth > 1300){
+		h1.style.fontSize = "xx-large";
+		h1.style.margin = "19px 0px";
+		coldiv.style.display="block";	
 		notes.style.width="35%";
 		lore.style.width="60%";
 		wrap.style.width="50%";
@@ -86,6 +109,9 @@ if (window.attachEvent) {
 		nav[i].style.width="45%";
 		};
     }else if (window.innerWidth <900){
+		h1.style.fontSize = "x-large";
+		h1.style.margin = "24px 0px";
+		coldiv.style.display="none";	
 		notes.style.width="90%";
 		lore.style.width="90%";
 		wrap.style.width="90%";
@@ -96,6 +122,9 @@ if (window.attachEvent) {
 		nav[i].style.width="45%";
 		};
 	}else{
+		h1.style.fontSize = "xx-large";
+		h1.style.margin = "19px 0px";
+		coldiv.style.display="block";	
         notes.style.width="45%";
 		lore.style.width="50%";
 		wrap.style.width="100%";

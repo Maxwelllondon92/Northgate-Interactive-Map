@@ -1,12 +1,13 @@
-var searchbar = document.getElementsByClassName("dropdown")[0]
-searchbar.addEventListener('mouseover',show)
-searchbar.addEventListener('mouseout',hide)
-function show() {
+var searchbar = document.getElementById('searchbar')
+var dropdown = document.getElementsByClassName('dropdown')[0];
+searchbar.onfocus = function() {
   document.getElementById("myDropdown").style.display = "block";
 }
-function hide() {
-  document.getElementById("myDropdown").style.display = "none";
-}
+window.addEventListener('click', function(e){
+	if (!dropdown.contains(e.target)){
+  	document.getElementById("myDropdown").style.display = "none";
+  }
+})
 function filterFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById("searchbar");

@@ -12,6 +12,7 @@ body {
 h1{
 	float:left;
 	margin: 15px 0px;
+	transition: 0.3s;
 }
 h2{
 	margin-bottom:10px;
@@ -96,6 +97,13 @@ details p{
   font-size: 20px;
   margin:5px 20px;
 }
+.shadowfilter {
+	transition: 0.3s;
+}
+.shadowfilter:hover {
+	filter: drop-shadow(0px 0px 10px #60b5f7);
+	transition: 0.3s;
+}
 .topnav a:visited {
   color:white;
   text-decoration: none;
@@ -104,7 +112,7 @@ details p{
   text-decoration: underline;
 }
 .topnav img{
-	  width:50px;
+	  width:55px;
 }
 /* Index elements */
 #mainnav{

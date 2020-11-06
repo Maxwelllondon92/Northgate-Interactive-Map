@@ -12,6 +12,7 @@
 <a href=".html"><circle id="icon09" class="st0"  cx="111.697" cy="295.385" r="20"/></a>
 <a href=".html"><circle id="icon10" class="st0"  cx="225.189" cy="65.644" r="20"/></a>
 <a href=".html"><rect id="icon11" class="st0" x="324.688" y="282.385"  width="35" height="35"/></a>
-<a href="andarien_dist.html"><polygon id="icon12" class="st0"  points="342.188,354.884 357.187,319.886 327.188,319.886 "/></a>
-<a href="durner_dist.html"><polygon id="icon13" class="st0"  points="19.772,184.106 51.697,204.856 56.815,175.297 "/></a>
+<a href=".html"><rect id="icon12" class="st0" x="293" y="225"  width="35" height="35"/></a>
+<a href="andarien_dist.html"><polygon id="icon13" class="st0"  points="342.188,354.884 357.187,319.886 327.188,319.886 "/></a>
+<a href="durner_dist.html"><polygon id="icon14" class="st0"  points="19.772,184.106 51.697,204.856 56.815,175.297 "/></a>
 </svg>
