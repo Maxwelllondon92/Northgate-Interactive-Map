@@ -1,1 +1,2 @@
 - Show building in a district when searching only the district name (e.g. searching "parks" show all parks)
+- add fields to searchbar tool

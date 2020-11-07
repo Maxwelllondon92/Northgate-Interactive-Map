@@ -15,9 +15,9 @@
 <a href=".html"><circle id="icon12" class="st0"  cx="497.467" cy="257.703" r="20"/></a>
 <a href=".html"><circle id="icon13" class="st0"  cx="344" cy="155.754" r="20"/></a>
 <a href=".html"><rect id="icon14" class="st0" x="287.015" y="135.254"  width="35" height="35"/></a>
-<a href=".html"><polygon id="icon15" class="st0"  points="390.986,102.858 375.986,137.856 405.985,137.856 "/></a>
-<a href=".html"><polygon id="icon16" class="st0"  points="634.695,267.625 599.342,281.766 620.554,302.979 "/></a>
-<a href=".html"><polygon id="icon17" class="st0"  points="344,456.575 359,421.578 329,421.578 "/></a>
-<a href=".html"><polygon id="icon18" class="st0"  points="26.285,262.255 56.599,285.297 63.876,256.193 "/></a>
-<a href=".html"><polygon id="icon19" class="st0"  points="133.647,50.237 118.647,85.235 148.646,85.235 "/></a>
+<a href="graver_hill.html"><polygon id="icon15" class="st0"  points="390.986,102.858 375.986,137.856 405.985,137.856 "/></a>
+<a href="gennmere_dist.html"><polygon id="icon16" class="st0"  points="634.695,267.625 599.342,281.766 620.554,302.979 "/></a>
+<a href="greater_canden.html"><polygon id="icon17" class="st0"  points="344,456.575 359,421.578 329,421.578 "/></a>
+<a href="smogtown.html"><polygon id="icon18" class="st0"  points="26.285,262.255 56.599,285.297 63.876,256.193 "/></a>
+<a href="dirktown_slums.html"><polygon id="icon19" class="st0"  points="133.647,50.237 118.647,85.235 148.646,85.235 "/></a>
 </svg>

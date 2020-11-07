@@ -5,7 +5,7 @@
 <a href=".html"><circle id="icon02" class="st0"  cx="77" cy="236.5" r="20"/></a>
 <a href=".html"><circle id="icon03" class="st0"  cx="257.729" cy="150.919" r="20"/></a>
 <a href=".html"><circle id="icon04" class="st0"  cx="318.729" cy="184.919" r="20"/></a>
-<a href=".html"><polygon id="icon05" class="st0"  points="172.041,40.763 157.041,75.76 187.04,75.76 "/></a>
-<a href=".html"><polygon id="icon06" class="st0"  points="414.414,46.888 379.061,61.029 400.273,82.241 "/></a>
-<a href=".html"><polygon id="icon07" class="st0"  points="299.545,378.659 287.512,342.533 265.086,362.459 "/></a>
+<a href="greater_canden.html"><polygon id="icon05" class="st0"  points="172.041,40.763 157.041,75.76 187.04,75.76 "/></a>
+<a href="gennmere_dist.html"><polygon id="icon06" class="st0"  points="414.414,46.888 379.061,61.029 400.273,82.241 "/></a>
+<a href="lower_commons.html"><polygon id="icon07" class="st0"  points="299.545,378.659 287.512,342.533 265.086,362.459 "/></a>
 </svg>
