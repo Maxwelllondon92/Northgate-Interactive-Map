@@ -1,0 +1,8 @@
+{
+	"lang":"Cambia Lingua",
+	"settings":"Opzioni",
+	"about":"Info",
+	"h2":["Muoversi in città","Muoversi nei distretti","Salvare e Caricare salvataggi","Cambia Lingua","Info"],
+	"p":["Puoi muovere il cursore sui distretti per evidenziarli.<br>Clicca per aprire.","È anche possibile cercare distretti ed edifici nella apposita barra di ricerca nella homepage.","Per tornare alla mappa principale clicca l'icona della città nell'angolo in alto a sinistra.","Una volta aperto un distretto puoi leggerne l'ambientazione.<br>Muovendo il cursore sulle icone degli edifici puoi visualizzarne l'ambientazione dettagliata.<br>Cliccaci sopra per accedere ai dettagli dell'edificio.<br>Cliccando le frecce puoi muoverti da un distretto all'altro","Nella parte destra della pagina, puoi scrivere degli appunti (ricorda di salvarli prima di lasciare la pagina).<br>Nellangolo in alto a destra puoi assegnare un colore al distretto:<br>è utile nel caso tu voglia evidenziare il distretto con un colore.<br>Questo colore sarà visualizzato anche nella mappa principale, passando sopra a tale distretto.","La mappa interattiva usa la cache del tuo browser per salvare note e informazioni.<br><a style='text-decoration:underline'>TUTTI I DATI VERRANNO PERDUTI CANCELLANDO LA CACHE DEL TUO BROWSER!!</a><br><br>Scarica il file di salvataggio prima di cancellare la cache.","Oppure CARICA UN SALVATAGGIO se ne possiedi già uno."],
+	"download":"Scarica Salvataggio"
+}
