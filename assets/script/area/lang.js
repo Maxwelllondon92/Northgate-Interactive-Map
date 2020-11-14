@@ -1,7 +1,7 @@
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
 var lorexml = new XMLHttpRequest();
-var loreURL ="../assets/lang/"+lang+"/"+filename+".json"
+var loreURL ="../assets/lang/"+lang+"/area/"+filename+".json"
 var loreCheck = setInterval(function() {
 	if (lang === null){
 		window.location.href = "../lang.html";
