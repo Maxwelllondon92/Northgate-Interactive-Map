@@ -1,7 +1,7 @@
 var filename = document.getElementById('filename').innerHTML
 var lang = localStorage.getItem('language')
 var toolxml = new XMLHttpRequest();
-var toolURL ="../assets/lang/"+lang+"/!tool.json"
+var toolURL ="../assets/lang/"+lang+".json"
 var toolCheck = setInterval(function() {
 if (lang === null){
 window.location.href = "../lang.html";

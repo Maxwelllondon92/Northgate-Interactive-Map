@@ -41,48 +41,11 @@ a{
 a:visited{
 	color:white;
 }
-details > summary::-webkit-details-marker {
-	display: none;
+details summary { 
+  cursor: pointer;
 }
-
-details > summary::marker {
-	display: none;
-}
-
-details > summary > h1::before,
-details > summary > h2::before,
-details > summary > h3::before,
-details > summary > h4::before,
-details > summary > h5::before,
-details > summary > h6::before {
-	content: "▶";
-	display: inline-block;
-	font-size: 1em;
-	line-height: 1.25;
-	margin-right: 0.4rem;
-	vertical-align: top;
-}
-
-details[open] > summary > h1::before,
-details[open] > summary > h2::before,
-details[open] > summary > h3::before,
-details[open] > summary > h4::before,
-details[open] > summary > h5::before,
-details[open] > summary > h6::before {
-	content: "▼"
-}
-
-details > summary > h1::before {
-	font-size: 1rem;
-	line-height: 2.25;
-}
-
-details > summary > h2::before {
-	font-size: 1rem;
-	line-height: 1.75;
-}
-details p{
-	margin-left:20px;
+details summary > * {
+  display: inline;
 }
 .info{
 	margin:0 auto;

@@ -1,8 +1,0 @@
-{
-	"lang":"Change Language",
-	"settings":"Settings",
-	"about":"About",
-	"h2":["Navigate the City","Navigate the Districts","Save and Retrive Data","Change Language","About"],
-	"p":["You can move the cursor over the districts to highlight them.<br>Click to open them.","Is also possible to search or browse all districts and buildings by using the searchbar in the homepage.","To go back the homepage press the city icon in the top-left corner.","Once you opened a district menu you can read the district lore.<br>If you move the cursor over the building icons you can display the building lore.<br>Click on them to access the buildings details (NOT YET IMPLEMENTED).<br>By clicking the arrows you can move to other districts.(WIP)","In the right side of the screen, you can leave a note for later (remember to save it before you leave the page).<br>In the top right corner you can assign a color to the district:<br>this is helpful in case you want to highlight the district by using a color-code.<br>This color will be displayed also in the main map, when you hover on said district.","The interactive map uses your browser local storage to store all your notes and informations.<br><a style='text-decoration:underline'>ALL DATA WILL BE LOST IF YOU CLEAR YOUR BROWSER CACHE!!</a><br><br>Download a save file here before cleaning your browser cache.","Otherwise UPLOAD THEM HERE if you already saved them."],
-	"download":"Download Save File"
-}
