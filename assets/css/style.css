@@ -261,6 +261,7 @@ details summary > * {
 }
 
 .show {display: block;}
+.hide{ display:none; }
 
 /* width */
 ::-webkit-scrollbar {
